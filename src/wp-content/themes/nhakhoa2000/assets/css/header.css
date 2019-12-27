@@ -1,0 +1,104 @@
+/*HEADER DESKTOP*/
+.header-desktop .header-top {
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+  .header-desktop .header-top .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header-desktop .header-top .col-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header-desktop .header-top .col-left img {
+      margin-right: 10px; }
+  .header-desktop .header-top .col-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4px; }
+    .header-desktop .header-top .col-right .col-cont {
+      margin: 0px 24px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .header-desktop .header-top .col-right .col-cont img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px; }
+      .header-desktop .header-top .col-right .col-cont h4 {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: -2px; }
+      .header-desktop .header-top .col-right .col-cont .phone, .header-desktop .header-top .col-right .col-cont .description {
+        color: #000000;
+        font-size: 13px;
+        font-weight: 700; }
+      .header-desktop .header-top .col-right .col-cont .phone-1:after {
+        content: "-"; }
+    .header-desktop .header-top .col-right .btn-make-appointment {
+      max-width: -webkit-fit-content;
+      max-width: -moz-fit-content;
+      max-width: fit-content;
+      height: 40px;
+      border: 1px solid #92c830;
+      border-radius: 20px;
+      background-color: #92c830;
+      padding: 11px 43px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-left: 24px; }
+    .header-desktop .header-top .col-right .btn-make-appointment:hover {
+      background-color: #ffffff;
+      border: 1px solid #92c830;
+      color: #92c830;
+      text-decoration: none; }
+.header-desktop .main-header .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .header-desktop .main-header .content .header-menu {
+    list-style: none;
+    margin-left: 30px;
+    height: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .header-desktop .main-header .content .header-menu img {
+      margin-top: 12px; }
+    .header-desktop .main-header .content .header-menu li {
+      margin-right: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 12px 0px; }
+    .header-desktop .main-header .content .header-menu .current-menu-item {
+      border-top: 2px solid blue; }
+
+/*END HEADER DESKTOP*/

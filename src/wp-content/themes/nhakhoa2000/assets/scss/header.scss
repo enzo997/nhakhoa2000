@@ -1,0 +1,100 @@
+/*HEADER DESKTOP*/
+.header-desktop{
+
+    .header-top{
+        padding:5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        .content{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .col-left{
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 10px;
+            }
+        }
+        .col-right{
+            display: flex;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            padding:4px;
+            margin-top:12px;
+            .col-cont{
+                margin: 0px 24px;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+                h4{
+                    color: rgba(0, 0, 0, 0.7);
+                    font-size: 11px;
+                    font-weight: 500;
+                    margin-bottom: -2px;
+                }
+                .phone, .description{
+                    color: #000000;
+                    font-size: 13px;
+                    font-weight: 700;
+                }
+                .phone-1:after{
+                    content:"-";
+                }
+            }
+            .btn-make-appointment{
+                max-width: fit-content;
+                height: 40px;
+                border: 1px solid #92c830;
+                border-radius: 20px;
+                background-color: #92c830;
+                padding: 11px 43px;
+                font-size: 12px;
+                font-weight: 700;
+                color: #ffffff;
+                margin-left: 24px
+            }
+            .btn-make-appointment:hover{
+                background-color: #ffffff;
+                border: 1px solid #92c830;
+                color:  #92c830;
+                text-decoration: none;
+            }
+        }
+    }
+    .main-header{
+        .content{
+            display: flex;
+            justify-content: space-between;
+            .col-left{
+                background: red;
+            }
+            .header-menu{
+                list-style: none;
+                // padding: 12px 0px;
+                margin-left: 30px;
+                height: 100%;
+                justify-content: space-between;
+                img{
+                    margin-top:12px;
+                }
+                li{
+                    margin-right: 30px;
+                    display: flex;
+                    align-items: center;
+                    padding: 12px 0px;
+                }
+                //active 
+                .current-menu-item{
+                    border-top:2px solid blue;
+                }
+            }
+        }
+    }
+}
+/*END HEADER DESKTOP*/
